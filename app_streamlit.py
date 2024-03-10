@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from sklearn.preprocessing import LabelEncoder
+# from sklearn.preprocessing import LabelEncoder
 from modelo import env2, env, estados2
 
 from QLearning import ObtenerQ
